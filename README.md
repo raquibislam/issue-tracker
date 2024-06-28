@@ -1,5 +1,5 @@
 ﻿# Issue Tracker App
- This is a practice project to learn React JS.
+ This is a practice project of React JS.
 
  ## Key features
  - Create Issue

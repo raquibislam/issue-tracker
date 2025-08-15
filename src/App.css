@@ -1,38 +1,153 @@
-.App {
+.signup_container {
+  padding: 100px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signup_container input {
+  padding: 5px 80px;
+  margin: 8px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px 3px rgb(231, 221, 221);
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.signup_container button {
+  padding: 5px 25px;
+  border: none;
+  background-color: green;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signup_container input {}
+
+
+.login_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 100px;
+}
+
+.login_col {
+  width: 600px;
+  text-align: center;
+}
+
+.login_col input {
+  padding: 5px 80px;
+  margin: 8px;
+  text-decoration: none;
+  box-shadow: 3px 3px 3px 3px rgb(231, 221, 221);
+  border: none;
+}
+
+.login_left h2 {
+  font-weight: bold;
+}
+
+.login_col .chakra_button {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.login_col .img_google {
+  width: 30px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:link {
+  text-decoration: none;
+}
+
+.login_col p {
+  font-size: 14px;
+  color: black;
+
+}
+
+.home_container {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+.chakra_form {
+  background-color: #eee;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+
+.home_container h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.home_container .label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.home_container h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.home_container .from_ctrl {
+  margin-bottom: 20px;
+}
+
+.home_container .input_field {
+  background-color: white;
+  font-size: 14px;
+  height: 35px;
+}
+
+.home_container .btn {
+  margin-top: 15px;
+  height: 30px;
+}
+
+.show_con {
+  min-height: 20px;
+  background-color: #f5f5f5;
+  padding: 19px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  margin: 15px;
+}
+
+.show_con h6 {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.show_con .label {
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  background-color: #5bc0de;
+}
+
+.show_con h3 {
+  margin-top: 5px;
+}
+
+.show_con .chakra_btn {
+  height: 29px;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-right: 10px;
 }
